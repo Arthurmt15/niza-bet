@@ -47,7 +47,7 @@ html {
   );
 }
 .image-principal-1 {
-  height: 600px;
+  height: 1000px;
   position: relative;
   overflow: hidden;
   margin: auto;
@@ -497,6 +497,9 @@ span {
   text-align: center;
   padding: 40px 0;
 }
+.image-principal-1 {
+  background-color: #1c1c1c;
+}
 
 .footer p {
   font-size: 1.3rem;
@@ -592,7 +595,7 @@ span {
   .segredo1 {
     padding-bottom: 20rem;
   }
-  
+
   .footer {
     max-width: 1000;
     flex-direction: column;
