@@ -581,20 +581,12 @@ span {
 .lista img {
   width: 390px;
   height: auto;
-  height: auto;
   margin: 0 -15px;
   text-align: center;
 }
 
-
 @media (max-width: 768px) {
-  .lista img {
-    width: 390px;
-    height: auto;
-    height: auto;
-    margin: 0 -15px;
-    text-align: center;
-  }
+
   .background {
     background-image: url('/fotos/bg-oferta-1.webp');
     background-size: cover;
@@ -747,7 +739,5 @@ span {
     overflow: hidden;
     margin: auto;
   }
-  .background {
-    padding: 30px 0px 50px 0px;
-  }
+
 }
