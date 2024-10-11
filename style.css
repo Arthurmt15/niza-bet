@@ -585,8 +585,8 @@ span {
   text-align: center;
 }
 .image-principal-1 {
-    width:500px ;
-    height: 500px;
+    width:600px ;
+    height: 600px;
 }
 
 @media (max-width: 768px) {
