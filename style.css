@@ -586,7 +586,6 @@ span {
 }
 
 @media (max-width: 768px) {
-
   .background {
     background-image: url('/fotos/bg-oferta-1.webp');
     background-size: cover;
@@ -668,23 +667,16 @@ span {
     padding-top: 25rem;
   }
   .image-principal {
-    width: 100%;
+    width: 110%;
     height: 450px;
+    margin-left: -30px;
   }
   .segredo,
   .segredo1,
   .acesso {
     font-size: 1.3rem;
   }
-  .image-principal-1 {
-    width: 100%;
-    height: 100%;
-  }
 
-  .image-principal-1 img {
-    width: 100%;
-    height: 100%;
-  }
   .card-bet {
     width: 300px;
     border: 1px solid #f9ba4f;
@@ -733,11 +725,13 @@ span {
     margin-bottom: 130px;
   }
   .image-principal-1 {
-    width: 80%;
-    height: 500px;
-    position: relative;
-    overflow: hidden;
-    margin: auto;
-  }
+    height: 50vh; /* A página terá exatamente a altura da janela de visualização */
+    width: 2000vw; 
 
+  }
+  .segredo h2,
+  .span1 {
+    font-weight: 500;
+    font-size: 2.5rem;
+  }
 }
