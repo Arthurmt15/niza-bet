@@ -584,6 +584,10 @@ span {
   margin: 0 -15px;
   text-align: center;
 }
+.image-principal-1 {
+    width:500px ;
+    height: 500px;
+}
 
 @media (max-width: 768px) {
   .background {
@@ -724,14 +728,26 @@ span {
   .tempo {
     margin-bottom: 130px;
   }
-  .image-principal-1 {
-    height: 50vh; /* A página terá exatamente a altura da janela de visualização */
-    width: 2000vw; 
-
-  }
-  .segredo h2,
-  .span1 {
+  .segredo h2, .span1{
+    text-align: center;
+    font-size: 2.7rem;
     font-weight: 500;
-    font-size: 2.5rem;
+    line-height: 1.1;
+  }
+  .image-principal {
+    display: block; /* Torna a imagem um elemento de bloco */
+    margin: 0 auto; /* Margens automáticas */
+    margin-left: -70px; /* Ajuste esse valor para mover para a esquerda */
+    width: 120%;
+  }
+  .acesso {
+    width: 100%;
+  }
+  .image-principal-1 {
+    width:100% ;
+    height: 450px;
+  }
+  .footer-text {
+    font-size: 1rem;
   }
 }
